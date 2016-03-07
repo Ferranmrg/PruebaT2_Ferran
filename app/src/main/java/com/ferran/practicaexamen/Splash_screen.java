@@ -6,6 +6,7 @@ import android.graphics.drawable.TransitionDrawable;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.transition.AutoTransition;
 import android.transition.Transition;
 import android.transition.TransitionValues;
 import android.widget.ImageView;
@@ -27,6 +28,12 @@ public class Splash_screen extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
+        ImageView bg = (ImageView) findViewById(R.id.bg);
+
+        //getBackground()
+
+        TransitionDrawable transition = (TransitionDrawable) bg.getBackground();
+        transition.startTransition(2000);
 
 
         Handler handler = new Handler();
