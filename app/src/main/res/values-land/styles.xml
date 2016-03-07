@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="testile">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginTop">83dp</item>
+    </style>
+
+    <style name="YEP_TEXTBOX">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/signupText</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:textColorHint">#fff</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/edittext_login</item>
+    </style>
+
+    <style name="YEP_BUTTON">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignLeft">@+id/linearLayout</item>
+        <item name="android:layout_alignRight">@+id/linearLayout</item>
+        <item name="android:background">@drawable/button_custom</item>
+        <item name="android:layout_below">@+id/linearLayout</item>
+    </style>
+
+    <style name="YEP_LABEL">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_below">@+id/loginButton</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="YepTheme" parent="AppTheme" />
+    </resources>
